@@ -45,6 +45,16 @@ main {
 .left-section, .right-section {
     background-color: #f4f4f4;
     padding: 10px;
+    
+}
+
+.left-section ul {
+    list-style: none;
+    padding: 10px;
+}
+.left-section li {
+    margin: 5px;
+    padding: 10px;
 }
 
 .middle-section table {

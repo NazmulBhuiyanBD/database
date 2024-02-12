@@ -9,22 +9,38 @@
 <body>
     <img src="imp.png" alt="img" height="400",width="400">
     <div class="signup-container">
-        
-        <h2>Sign Up</h2>
+        <h1>Sign Up</h1>
         <form action="#" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <label for="confirm-password">Confirm Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
-
-            <button type="submit"><a href="index.html">Sign Up</a></button>
+            <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="input-group">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="input-group">
+                <label for="mobileOrEmail">Mobile or Email</label>
+                <input type="text" id="mobileOrEmail" name="mobileOrEmail" required>
+            </div>
+            <div class="input-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <button type="submit"><a href="index.html">Sign Up</a></button>
+            </div>
+        </form>
+        <p>Already have an account? <a class="signup-link" href="index.html">Log in</a></p>
+    </div>
             
         </form>
     </div>
